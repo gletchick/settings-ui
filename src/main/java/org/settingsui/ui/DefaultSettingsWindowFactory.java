@@ -1,4 +1,4 @@
-package org.settingsui.config; // Изменено на org.settingsui.config
+package org.settingsui.ui; // Изменено на org.settingsui.config
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -7,6 +7,7 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import org.settingsui.api.SettingsWindowFactory; // Импортируем интерфейс из api
 import org.settingsui.api.ConfigurableSettingsController; // Импортируем интерфейс из api
+import org.settingsui.config.AppConfig;
 import org.theme_manager.ThemeManager;
 
 import java.io.IOException;

@@ -30,7 +30,6 @@ public class SettingsController implements ConfigurableSettingsController {
     private Stage stage;
     private AppConfig currentAppConfig;
 
-    @Override // Реализуем метод initialize из интерфейса ConfigurableSettingsController
     public void initialize(AppConfig initialConfig, SettingsWindowFactory.SettingsChangeListener listener, Stage stage) {
         this.currentAppConfig = initialConfig;
         this.listener = listener;
