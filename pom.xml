@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org</groupId>
-    <artifactId>settings_ui</artifactId>
+    <artifactId>settings-ui</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>settings-ui</name>
     <packaging>jar</packaging>
