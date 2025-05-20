@@ -22,7 +22,7 @@ public class DefaultSettingsWindowFactory implements SettingsWindowFactory {
 
         // Путь к FXML теперь должен быть относительно пакета config или resources root
         // Предполагаем, что settings.fxml находится в src/main/resources/org/settingsui/config/view/settings.fxml
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/org/settingsui/config/view/settings.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/org/settingsui/settings.fxml"));
         Parent root = fxmlLoader.load();
 
         Object controllerInstance = fxmlLoader.getController();
@@ -32,7 +32,6 @@ public class DefaultSettingsWindowFactory implements SettingsWindowFactory {
         ConfigurableSettingsController controller = (ConfigurableSettingsController) controllerInstance;
 
         controller.initialize(initialConfig, listener, settingsStage);
-
         Scene scene = new Scene(root);
         ThemeManager.applyCurrentTheme(scene); // Применяем текущую тему из ThemeManager
 
