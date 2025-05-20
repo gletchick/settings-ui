@@ -21,7 +21,6 @@ public class DefaultSettingsWindowFactory implements SettingsWindowFactory {
         settingsStage.initModality(Modality.APPLICATION_MODAL);
 
         // Путь к FXML теперь должен быть относительно пакета config или resources root
-        // Предполагаем, что settings.fxml находится в src/main/resources/org/settingsui/config/view/settings.fxml
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/org/settingsui/settings.fxml"));
         Parent root = fxmlLoader.load();
 

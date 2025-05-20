@@ -6,12 +6,12 @@ public class AppConfig {
     private int windowHeight;
     private String fontFamily;
     private int fontSize;
-    private String themeMode; // Имя темы, "dark" или "default"
+    private String themeMode;
 
     public AppConfig() {
         // Значения по умолчанию
         this.windowWidth = 251;
-        this.windowHeight = 383;
+        this.windowHeight = 366;
         this.fontFamily = "System";
         this.fontSize = 12;
         this.themeMode = "dark"; // Тема по умолчанию
