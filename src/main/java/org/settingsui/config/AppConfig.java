@@ -11,7 +11,7 @@ public class AppConfig {
     public AppConfig() {
         // Значения по умолчанию
         this.windowWidth = 251;
-        this.windowHeight = 366;
+        this.windowHeight = 343;
         this.fontFamily = "System";
         this.fontSize = 12;
         this.themeMode = "dark"; // Тема по умолчанию
